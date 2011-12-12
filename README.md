@@ -11,7 +11,7 @@ For more information about Morale see <http://teammorale.com>.
 Installation
 ------------
 
-This library can be installed as a gem. It is hosted on [Rubygems](http://rubygems.org/gems/morale).
+This library can be installed as a gem. It is hosted on [Rubygems](http://rubygems.org/gems/morale-client).
 
 You can install this library as a gem using the following command:
 
