@@ -34,11 +34,13 @@ Gem::Specification.new do |s|
     Gemfile
     Gemfile.lock
     README.md
+    Rakefile
     lib/morale.rb
     lib/morale/client.rb
     lib/morale/connection_store.rb
     lib/morale/platform.rb
     lib/morale/storage.rb
+    morale-client.gemspec
     spec/morale/client_spec.rb
     spec/morale/connection_store_spec.rb
     spec/spec_helper.rb
