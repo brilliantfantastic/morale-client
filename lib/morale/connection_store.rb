@@ -7,15 +7,14 @@ module Morale
     include Morale::Platform
     
     def base_url
-      # if @base_url.nil?
-      #   @base_url = read_connection
-      #   if @base_url.nil?
-      #     @base_url = default_base_url
-      #     self.write_connection
-      #   end
-      # end
-      # @base_url
-      'teammorale.com'
+      if @base_url.nil?
+        @base_url = read_connection
+        if @base_url.nil?
+          @base_url = default_base_url
+          self.write_connection
+        end
+      end
+      @base_url
     end
     
     def base_url=(value)
