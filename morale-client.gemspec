@@ -5,8 +5,8 @@ Gem::Specification.new do |s|
   s.rubygems_version = '1.3.5'
 
   s.name              = 'morale-client'
-  s.version           = '0.0.1'
-  s.date              = '2011-12-12'
+  s.version           = '1.0.0'
+  s.date              = '2012-01-28'
   s.rubyforge_project = 'morale-client'
 
   s.summary     = "A Ruby wrapper for the Morale REST API."
