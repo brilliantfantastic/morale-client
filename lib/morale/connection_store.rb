@@ -41,7 +41,7 @@ module Morale
     
     def read_connection
       connection = self.read
-      connection.split("\n") if connection
+      connection.split("\n")[0] if connection
     end
     
     def write_connection
