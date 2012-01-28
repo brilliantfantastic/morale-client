@@ -2,6 +2,9 @@ require 'httparty'
 require 'json'
 require 'morale/connection_store'
 
+# Needed for httppary parsing
+YAML::ENGINE.yamler = "syck"
+
 module Morale
   class Client
     class Unauthorized  < RuntimeError; end
